@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JSNinja: Desafio 29</title>
+</head>
+<body>
+  <!--
+    - No início do arquivo, deverá ter as informações da sua empresa - nome e
+  telefone (já vamos ver como isso vai ser feito)
+  -->
+  <header data-js="header">
+    <h1> </h1>
+    <p> </p>
+  </header>
+  <!--
+      - Ao abrir a tela, ainda não teremos carros cadastrados. Então deverá ter
+  um formulário para cadastro do carro, com os seguintes campos:
+    - Imagem do carro (deverá aceitar uma URL)
+    - Marca / Modelo
+    - Ano
+    - Placa
+    - Cor
+    - e um botão "Cadastrar"
+  -->
+  <main class="main-content">
+    <div>
+      <form data-js="car-form">
+        <h2> Cadastro de Veículos </h2>
+        <h3> Imagem </h3>
+        <input data-js="text-input" type="text">
+        <h3> Marca/Modelo </h3>
+        <input data-js="text-input" type="text">
+        <h3> Ano </h3>
+        <input data-js="text-input" type="text">
+        <h3> Placa </h3>
+        <input data-js="text-input" type="text">
+        <h3> Cor </h3>
+        <input data-js="text-input" type="text">
+        <button> Cadastrar </button>
+      </form>
+    </div>
+
+  <!--  Logo abaixo do formulário, deverá ter uma tabela que irá mostrar todos os
+  carros cadastrados. Ao clicar no botão de cadastrar, o novo carro deverá
+  aparecer no final da tabela.-->
+
+    <div data-js="table">
+      <div data-js="table-cell">
+        <img src="">
+        <p class="marca"> Marca/Modelo </p>
+        <p class="ano"> Ano </p>
+        <p class="placa"> Placa </p>
+        <p class="cor"> Cor </p>
+      </div>
+    </div>
+  </main>
+  <script src="libraryDOM.js"></script>
+  <script src="challenge-30.js"></script>
+</body>
+</html>
